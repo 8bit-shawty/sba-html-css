@@ -37,3 +37,16 @@ tr > td:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.active{
+    color: #EB9FEF;
+}
