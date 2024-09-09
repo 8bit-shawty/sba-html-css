@@ -1,3 +1,27 @@
+/* LOGIN */
+*{
+    color:white
+}
+body{
+    background-color: #03254E;
+}
+@keyframes textAnimation{
+    0% { color: #EB9FEF;}
+    25% {color: green;}
+    50% {color: blue;}
+    75% {color: purple;}
+    80% {color: orange;}
+    100%{color: #EB9FEF;}
+}
+
+#changeText{
+    color: #EB9FEF;
+    animation-name: textAnimation;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
 table{
     width: 80%;
     margin: auto;
@@ -7,4 +31,9 @@ table{
 tr > th{
     color: #EB9FEF;
     border-bottom: 3px solid #545677;
+}
+
+tr > td:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
