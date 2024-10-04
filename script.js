@@ -25,7 +25,7 @@ function validateLogin(e){
     
         setTimeout(() => {
             loginForm.submit()
-        }, 3000)
+        }, 0)
     }
 }
 
@@ -55,3 +55,4 @@ function showErrMessage(msg){
         errMessageEl.style.display = 'none'
     }, 4000);
 }
+
