@@ -16,8 +16,17 @@ function validateLogin(e){
     if(emailVal === false){
         return
     }
-    // alert(`Email: ${email.value}`)
-    // return true;
+    // if(emailVal === true){
+    //     alert("You have successfully logged in.")
+    //     continue
+    // }
+    if(emailVal === true){
+        alert("You have successfully logged in.")
+    
+        setTimeout(() => {
+            loginForm.submit()
+        }, 3000)
+    }
 }
 
 function validateEmail() {
